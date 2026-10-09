@@ -128,9 +128,10 @@ if ibge_age.empty:
         "O restante do MVP continua disponível."
     )
 else:
+    race_status = "com cor/raça" if not ibge_race.empty else "sem cor/raça nesta execução"
     st.success(
-        "Integração IBGE ativa: 16 municípios do Amapá • "
-        "Censo 2022 • SIDRA 9514/9606"
+        "Integração demográfica IBGE ativa: 16 municípios do Amapá • "
+        f"Censo 2022 • {race_status}"
     )
 
 if ibge_errors:
