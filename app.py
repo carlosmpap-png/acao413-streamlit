@@ -5,6 +5,7 @@ import pandas as pd
 import plotly.express as px
 import requests
 import streamlit as st
+from streamlit.components.v1 import html as components_html
 
 from dashboard_utils import (
     SIDRA_9514,
@@ -21,6 +22,31 @@ st.set_page_config(
     page_title="Ação 413 — Pessoa Idosa",
     page_icon="📊",
     layout="wide",
+)
+
+# O Streamlit ainda publica a página com <html lang="en">.
+# Em alguns navegadores isso pode acionar tradução automática indevida,
+# alterando frases que já estão em português. Ajustamos o idioma no DOM
+# e marcamos a página para não ser traduzida automaticamente.
+components_html(
+    """
+    <script>
+      const doc = window.parent.document;
+      doc.documentElement.lang = "pt-BR";
+      doc.documentElement.setAttribute("translate", "no");
+      doc.documentElement.classList.add("notranslate");
+
+      let meta = doc.querySelector('meta[name="google"]');
+      if (!meta) {
+        meta = doc.createElement("meta");
+        meta.setAttribute("name", "google");
+        doc.head.appendChild(meta);
+      }
+      meta.setAttribute("content", "notranslate");
+    </script>
+    """,
+    height=0,
+    width=0,
 )
 
 BASE = Path(__file__).parent
@@ -118,8 +144,8 @@ ibge_age, ibge_race, ibge_errors = load_ibge(municipios)
 
 st.title("Ação 413 — Painel de Dados para Atuação Resolutiva")
 st.caption(
-    "MVP v0.3 • Numeradores processuais sintéticos • "
-    "Denominadores demográficos oficiais: IBGE, Censo 2022"
+    "MVP v0.3 • Dados processuais: sintéticos • "
+    "Dados demográficos: IBGE, Censo 2022"
 )
 
 if ibge_age.empty:
@@ -270,28 +296,24 @@ if page == "Visão geral":
     c1.metric("Processos (MVP)", nproc)
     c2.metric(f"Pessoas {faixa} no MVP", fpp["pessoa_id"].nunique())
     c3.metric(f"População {faixa} (IBGE)", fmt_int(denominador))
-    c4.metric(
-        "População 60+ (IBGE)",
-        fmt_int(gi["pop_60mais"].sum()) if not gi.empty else "—",
-    )
-    c5.metric(
-        "População 80+ (IBGE)",
-        fmt_int(gi["pop_80mais"].sum()) if not gi.empty else "—",
-    )
+    c4.metric("Processos ativos", int((f["situacao"] == "Ativo").sum()))
+    c5.metric("Processos encerrados", int((f["situacao"] == "Encerrado").sum()))
     c6.metric(
         "Razão demonstrativa",
         "—" if pd.isna(razao) else f"{razao:.1f}/10 mil",
         help=(
-            f"Processos distintos no período {periodo_label} ÷ população {faixa} "
-            "do Censo 2022 × 10.000. O numerador do MVP é sintético."
+            f"Cálculo: processos distintos no período {periodo_label} ÷ "
+            f"população {faixa} no Censo 2022 × 10.000. "
+            "Os processos usados no MVP são sintéticos."
         ),
     )
 
     st.info(
-        "A razão acima é acumulada para o período selecionado e usa como denominador "
-        "a população do Censo 2022. Ela serve para comparar a arquitetura do indicador, "
-        "não representa incidência anual nem demanda real do MP-AP enquanto o numerador "
-        "processual for sintético."
+        "A razão exibida é calculada para o período selecionado: número de processos "
+        "distintos dividido pela população da faixa etária no Censo 2022, multiplicado "
+        "por 10.000. Como os processos são sintéticos, o valor serve apenas para "
+        "demonstrar o cálculo e não representa a demanda real do MP-AP nem uma taxa "
+        "anual de incidência."
     )
 
     st.subheader("Autuações ao longo do tempo")
