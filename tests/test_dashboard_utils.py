@@ -94,3 +94,21 @@ def test_age_band_denominators_and_process_selection():
 def test_ratio_per_10k():
     assert ratio_per_10k(25, 5000) == 50
     assert math.isnan(ratio_per_10k(1, 0))
+
+
+def test_demo_dataset_covers_2022_2026_and_all_16_municipalities():
+    processos = pd.read_csv(
+        "data/processos_demo.csv",
+        dtype={"codigo_ibge": str},
+        parse_dates=["data_autuacao"],
+    )
+    municipios = pd.read_csv(
+        "data/municipios_ap_ibge.csv",
+        dtype={"codigo_ibge": str},
+    )
+
+    assert processos["data_autuacao"].dt.year.min() == 2022
+    assert processos["data_autuacao"].dt.year.max() == 2026
+    assert processos["municipio"].nunique() == 16
+    assert processos["codigo_ibge"].nunique() == 16
+    assert set(processos["codigo_ibge"]) == set(municipios["codigo_ibge"])
