@@ -3,21 +3,32 @@ Baixa do SIDRA os dados do Censo 2022 usados pelo painel e salva snapshots locai
 Uso: py refresh_ibge.py
 """
 from pathlib import Path
+
 import pandas as pd
 import requests
 
+from dashboard_utils import SIDRA_9514, SIDRA_9606
+
 BASE = Path(__file__).parent
 DATA = BASE / "data"
-m = pd.read_csv(DATA / "municipios_ap_ibge.csv", dtype={"codigo_ibge": str})
-codes = ",".join(m["codigo_ibge"].tolist())
+
+municipios = pd.read_csv(
+    DATA / "municipios_ap_ibge.csv",
+    dtype={"codigo_ibge": str},
+)
+codes = ",".join(municipios["codigo_ibge"].tolist())
 
 urls = {
-    "sidra9514_raw.json": f"https://apisidra.ibge.gov.br/values/t/9514/p/2022/v/allxp/n6/{codes}/c2/all/c287/all/c286/113635",
-    "sidra9606_raw.json": f"https://apisidra.ibge.gov.br/values/t/9606/p/2022/v/allxp/n6/{codes}/c86/all/c2/all/c287/all",
+    "sidra9514_v93_raw.json": SIDRA_9514.format(codes=codes),
+    "sidra9606_v93_raw.json": SIDRA_9606.format(codes=codes),
 }
 
 for name, url in urls.items():
-    r = requests.get(url, timeout=90)
-    r.raise_for_status()
-    (DATA / name).write_text(r.text, encoding="utf-8")
+    response = requests.get(
+        url,
+        timeout=90,
+        headers={"User-Agent": "acao413-mpap/0.3"},
+    )
+    response.raise_for_status()
+    (DATA / name).write_text(response.text, encoding="utf-8")
     print("Salvo:", DATA / name)
