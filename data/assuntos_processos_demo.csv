@@ -1,485 +1,226 @@
 processo_id,assunto,ordem_assunto
-P00001,Transporte,1
-P00001,Instituição de Longa Permanência,2
-P00002,Saúde da Pessoa Idosa,1
-P00003,Acessibilidade,1
-P00004,Transporte,1
-P00004,Fraude/Crédito,2
-P00004,Violência contra Pessoa Idosa,3
-P00005,Instituição de Longa Permanência,1
-P00006,Benefício Assistencial,1
-P00007,Violência contra Pessoa Idosa,1
-P00008,Saúde da Pessoa Idosa,1
-P00009,Transporte,1
-P00010,Fraude/Crédito,1
-P00010,Violência contra Pessoa Idosa,2
-P00011,Fraude/Crédito,1
-P00011,Pessoa Idosa,2
-P00011,Violência contra Pessoa Idosa,3
-P00012,Pessoa Idosa,1
+P00001,Instituição de Longa Permanência,1
+P00002,Benefício Assistencial,1
+P00003,Saúde da Pessoa Idosa,1
+P00003,Pessoa Idosa,2
+P00004,Acessibilidade,1
+P00005,Transporte,1
+P00006,Violência contra Pessoa Idosa,1
+P00006,Transporte,2
+P00007,Fraude/Crédito,1
+P00008,Pessoa Idosa,1
+P00009,Instituição de Longa Permanência,1
+P00009,Benefício Assistencial,2
+P00010,Benefício Assistencial,1
+P00011,Saúde da Pessoa Idosa,1
+P00012,Acessibilidade,1
 P00012,Fraude/Crédito,2
-P00013,Benefício Assistencial,1
-P00014,Acessibilidade,1
-P00015,Violência contra Pessoa Idosa,1
-P00016,Instituição de Longa Permanência,1
+P00013,Transporte,1
+P00013,Fraude/Crédito,3
+P00014,Violência contra Pessoa Idosa,1
+P00015,Fraude/Crédito,1
+P00015,Acessibilidade,2
+P00016,Pessoa Idosa,1
 P00017,Instituição de Longa Permanência,1
-P00018,Instituição de Longa Permanência,1
-P00018,Saúde da Pessoa Idosa,2
-P00019,Pessoa Idosa,1
-P00020,Fraude/Crédito,1
-P00021,Acessibilidade,1
-P00021,Saúde da Pessoa Idosa,2
-P00022,Acessibilidade,1
+P00018,Benefício Assistencial,1
+P00018,Instituição de Longa Permanência,2
+P00019,Saúde da Pessoa Idosa,1
+P00020,Acessibilidade,1
+P00021,Transporte,1
+P00021,Violência contra Pessoa Idosa,2
+P00022,Violência contra Pessoa Idosa,1
 P00023,Fraude/Crédito,1
-P00024,Instituição de Longa Permanência,1
-P00025,Fraude/Crédito,1
-P00025,Acessibilidade,2
-P00026,Instituição de Longa Permanência,1
-P00027,Instituição de Longa Permanência,1
-P00028,Violência contra Pessoa Idosa,1
-P00028,Acessibilidade,2
-P00028,Saúde da Pessoa Idosa,3
-P00029,Saúde da Pessoa Idosa,1
-P00030,Acessibilidade,1
-P00031,Instituição de Longa Permanência,1
+P00024,Pessoa Idosa,1
+P00024,Saúde da Pessoa Idosa,2
+P00025,Instituição de Longa Permanência,1
+P00026,Benefício Assistencial,1
+P00026,Pessoa Idosa,3
+P00027,Saúde da Pessoa Idosa,1
+P00027,Pessoa Idosa,2
+P00028,Acessibilidade,1
+P00029,Transporte,1
+P00030,Violência contra Pessoa Idosa,1
+P00030,Transporte,2
+P00031,Fraude/Crédito,1
 P00032,Pessoa Idosa,1
-P00032,Instituição de Longa Permanência,2
-P00033,Saúde da Pessoa Idosa,1
-P00034,Pessoa Idosa,1
-P00035,Instituição de Longa Permanência,1
-P00036,Fraude/Crédito,1
-P00037,Violência contra Pessoa Idosa,1
+P00033,Instituição de Longa Permanência,1
+P00033,Benefício Assistencial,2
+P00034,Benefício Assistencial,1
+P00035,Saúde da Pessoa Idosa,1
+P00036,Acessibilidade,1
+P00036,Fraude/Crédito,2
+P00037,Transporte,1
 P00038,Violência contra Pessoa Idosa,1
-P00039,Instituição de Longa Permanência,1
+P00039,Fraude/Crédito,1
 P00039,Acessibilidade,2
-P00039,Benefício Assistencial,3
-P00040,Benefício Assistencial,1
-P00041,Violência contra Pessoa Idosa,1
-P00042,Acessibilidade,1
-P00043,Violência contra Pessoa Idosa,1
-P00043,Benefício Assistencial,2
-P00044,Instituição de Longa Permanência,1
-P00045,Benefício Assistencial,1
-P00046,Benefício Assistencial,1
-P00046,Instituição de Longa Permanência,2
-P00047,Violência contra Pessoa Idosa,1
-P00048,Benefício Assistencial,1
+P00039,Instituição de Longa Permanência,3
+P00040,Pessoa Idosa,1
+P00041,Instituição de Longa Permanência,1
+P00042,Benefício Assistencial,1
+P00042,Instituição de Longa Permanência,2
+P00043,Saúde da Pessoa Idosa,1
+P00044,Acessibilidade,1
+P00045,Transporte,1
+P00045,Violência contra Pessoa Idosa,2
+P00046,Violência contra Pessoa Idosa,1
+P00047,Fraude/Crédito,1
+P00048,Pessoa Idosa,1
 P00048,Saúde da Pessoa Idosa,2
-P00049,Saúde da Pessoa Idosa,1
-P00050,Saúde da Pessoa Idosa,1
-P00050,Fraude/Crédito,2
-P00051,Fraude/Crédito,1
-P00052,Instituição de Longa Permanência,1
-P00053,Pessoa Idosa,1
-P00053,Transporte,2
-P00054,Acessibilidade,1
-P00055,Violência contra Pessoa Idosa,1
-P00056,Benefício Assistencial,1
-P00056,Pessoa Idosa,2
-P00057,Fraude/Crédito,1
-P00058,Violência contra Pessoa Idosa,1
-P00059,Acessibilidade,1
-P00060,Transporte,1
-P00061,Pessoa Idosa,1
-P00062,Transporte,1
-P00063,Pessoa Idosa,1
+P00049,Instituição de Longa Permanência,1
+P00050,Benefício Assistencial,1
+P00051,Saúde da Pessoa Idosa,1
+P00051,Pessoa Idosa,2
+P00052,Acessibilidade,1
+P00052,Benefício Assistencial,3
+P00053,Transporte,1
+P00054,Violência contra Pessoa Idosa,1
+P00054,Transporte,2
+P00055,Fraude/Crédito,1
+P00056,Pessoa Idosa,1
+P00057,Instituição de Longa Permanência,1
+P00057,Benefício Assistencial,2
+P00058,Benefício Assistencial,1
+P00059,Saúde da Pessoa Idosa,1
+P00060,Acessibilidade,1
+P00060,Fraude/Crédito,2
+P00061,Transporte,1
+P00062,Violência contra Pessoa Idosa,1
+P00063,Fraude/Crédito,1
 P00063,Acessibilidade,2
-P00064,Transporte,1
-P00065,Transporte,1
-P00066,Transporte,1
-P00066,Acessibilidade,2
-P00067,Pessoa Idosa,1
-P00068,Fraude/Crédito,1
-P00069,Acessibilidade,1
-P00070,Saúde da Pessoa Idosa,1
-P00071,Instituição de Longa Permanência,1
-P00072,Violência contra Pessoa Idosa,1
-P00072,Acessibilidade,2
+P00064,Pessoa Idosa,1
+P00065,Instituição de Longa Permanência,1
+P00065,Saúde da Pessoa Idosa,3
+P00066,Benefício Assistencial,1
+P00066,Instituição de Longa Permanência,2
+P00067,Saúde da Pessoa Idosa,1
+P00068,Acessibilidade,1
+P00069,Transporte,1
+P00069,Violência contra Pessoa Idosa,2
+P00070,Violência contra Pessoa Idosa,1
+P00071,Fraude/Crédito,1
+P00072,Pessoa Idosa,1
+P00072,Saúde da Pessoa Idosa,2
 P00073,Instituição de Longa Permanência,1
 P00074,Benefício Assistencial,1
-P00074,Saúde da Pessoa Idosa,2
-P00075,Fraude/Crédito,1
-P00076,Benefício Assistencial,1
-P00077,Acessibilidade,1
-P00078,Benefício Assistencial,1
-P00078,Saúde da Pessoa Idosa,2
-P00079,Instituição de Longa Permanência,1
-P00080,Instituição de Longa Permanência,1
-P00081,Benefício Assistencial,1
-P00082,Acessibilidade,1
-P00082,Fraude/Crédito,2
-P00083,Violência contra Pessoa Idosa,1
-P00084,Saúde da Pessoa Idosa,1
-P00085,Violência contra Pessoa Idosa,1
-P00086,Instituição de Longa Permanência,1
-P00087,Transporte,1
-P00087,Instituição de Longa Permanência,2
-P00088,Violência contra Pessoa Idosa,1
-P00089,Violência contra Pessoa Idosa,1
-P00089,Instituição de Longa Permanência,2
-P00090,Instituição de Longa Permanência,1
-P00091,Transporte,1
-P00091,Pessoa Idosa,2
-P00092,Benefício Assistencial,1
-P00092,Pessoa Idosa,2
-P00093,Instituição de Longa Permanência,1
-P00094,Acessibilidade,1
-P00095,Acessibilidade,1
-P00096,Saúde da Pessoa Idosa,1
-P00097,Saúde da Pessoa Idosa,1
-P00098,Transporte,1
-P00099,Fraude/Crédito,1
-P00100,Instituição de Longa Permanência,1
-P00101,Benefício Assistencial,1
-P00101,Pessoa Idosa,2
-P00102,Acessibilidade,1
-P00103,Saúde da Pessoa Idosa,1
+P00075,Saúde da Pessoa Idosa,1
+P00075,Pessoa Idosa,2
+P00076,Acessibilidade,1
+P00077,Transporte,1
+P00078,Violência contra Pessoa Idosa,1
+P00078,Transporte,2
+P00078,Acessibilidade,3
+P00079,Fraude/Crédito,1
+P00080,Pessoa Idosa,1
+P00081,Instituição de Longa Permanência,1
+P00081,Benefício Assistencial,2
+P00082,Benefício Assistencial,1
+P00083,Saúde da Pessoa Idosa,1
+P00084,Acessibilidade,1
+P00084,Fraude/Crédito,2
+P00085,Transporte,1
+P00086,Violência contra Pessoa Idosa,1
+P00087,Fraude/Crédito,1
+P00087,Acessibilidade,2
+P00088,Pessoa Idosa,1
+P00089,Instituição de Longa Permanência,1
+P00090,Benefício Assistencial,1
+P00090,Instituição de Longa Permanência,2
+P00091,Saúde da Pessoa Idosa,1
+P00091,Transporte,3
+P00092,Acessibilidade,1
+P00093,Transporte,1
+P00093,Violência contra Pessoa Idosa,2
+P00094,Violência contra Pessoa Idosa,1
+P00095,Fraude/Crédito,1
+P00096,Pessoa Idosa,1
+P00096,Saúde da Pessoa Idosa,2
+P00097,Instituição de Longa Permanência,1
+P00098,Benefício Assistencial,1
+P00099,Saúde da Pessoa Idosa,1
+P00099,Pessoa Idosa,2
+P00100,Acessibilidade,1
+P00101,Transporte,1
+P00102,Violência contra Pessoa Idosa,1
+P00102,Transporte,2
+P00103,Fraude/Crédito,1
 P00104,Pessoa Idosa,1
+P00104,Violência contra Pessoa Idosa,3
 P00105,Instituição de Longa Permanência,1
-P00106,Instituição de Longa Permanência,1
-P00106,Acessibilidade,2
-P00107,Transporte,1
-P00108,Instituição de Longa Permanência,1
-P00109,Benefício Assistencial,1
-P00110,Saúde da Pessoa Idosa,1
-P00111,Instituição de Longa Permanência,1
-P00111,Violência contra Pessoa Idosa,2
-P00112,Saúde da Pessoa Idosa,1
-P00112,Instituição de Longa Permanência,2
-P00113,Saúde da Pessoa Idosa,1
-P00114,Pessoa Idosa,1
+P00105,Benefício Assistencial,2
+P00106,Benefício Assistencial,1
+P00107,Saúde da Pessoa Idosa,1
+P00108,Acessibilidade,1
+P00108,Fraude/Crédito,2
+P00109,Transporte,1
+P00110,Violência contra Pessoa Idosa,1
+P00111,Fraude/Crédito,1
+P00111,Acessibilidade,2
+P00112,Pessoa Idosa,1
+P00113,Instituição de Longa Permanência,1
+P00114,Benefício Assistencial,1
 P00114,Instituição de Longa Permanência,2
-P00115,Pessoa Idosa,1
-P00116,Transporte,1
-P00117,Pessoa Idosa,1
+P00115,Saúde da Pessoa Idosa,1
+P00116,Acessibilidade,1
+P00117,Transporte,1
+P00117,Violência contra Pessoa Idosa,2
+P00117,Fraude/Crédito,3
 P00118,Violência contra Pessoa Idosa,1
-P00119,Acessibilidade,1
-P00120,Instituição de Longa Permanência,1
-P00121,Acessibilidade,1
+P00119,Fraude/Crédito,1
+P00120,Pessoa Idosa,1
+P00120,Saúde da Pessoa Idosa,2
+P00121,Instituição de Longa Permanência,1
 P00122,Benefício Assistencial,1
-P00122,Transporte,2
-P00123,Benefício Assistencial,1
-P00123,Acessibilidade,2
-P00124,Saúde da Pessoa Idosa,1
-P00125,Benefício Assistencial,1
-P00125,Fraude/Crédito,2
-P00126,Transporte,1
+P00123,Saúde da Pessoa Idosa,1
+P00123,Pessoa Idosa,2
+P00124,Acessibilidade,1
+P00125,Transporte,1
+P00126,Violência contra Pessoa Idosa,1
+P00126,Transporte,2
 P00127,Fraude/Crédito,1
-P00128,Saúde da Pessoa Idosa,1
-P00129,Fraude/Crédito,1
-P00130,Fraude/Crédito,1
-P00131,Transporte,1
-P00132,Fraude/Crédito,1
-P00132,Saúde da Pessoa Idosa,2
-P00133,Fraude/Crédito,1
-P00134,Transporte,1
-P00134,Violência contra Pessoa Idosa,2
-P00135,Instituição de Longa Permanência,1
-P00136,Instituição de Longa Permanência,1
-P00136,Fraude/Crédito,2
-P00137,Pessoa Idosa,1
-P00138,Acessibilidade,1
+P00128,Pessoa Idosa,1
+P00129,Instituição de Longa Permanência,1
+P00129,Benefício Assistencial,2
+P00130,Benefício Assistencial,1
+P00130,Pessoa Idosa,3
+P00131,Saúde da Pessoa Idosa,1
+P00132,Acessibilidade,1
+P00132,Fraude/Crédito,2
+P00133,Transporte,1
+P00134,Violência contra Pessoa Idosa,1
+P00135,Fraude/Crédito,1
+P00135,Acessibilidade,2
+P00136,Pessoa Idosa,1
+P00137,Instituição de Longa Permanência,1
+P00138,Benefício Assistencial,1
+P00138,Instituição de Longa Permanência,2
 P00139,Saúde da Pessoa Idosa,1
-P00139,Benefício Assistencial,2
-P00140,Saúde da Pessoa Idosa,1
-P00140,Benefício Assistencial,2
-P00140,Violência contra Pessoa Idosa,3
-P00141,Acessibilidade,1
-P00142,Saúde da Pessoa Idosa,1
+P00140,Acessibilidade,1
+P00141,Transporte,1
+P00141,Violência contra Pessoa Idosa,2
+P00142,Violência contra Pessoa Idosa,1
 P00143,Fraude/Crédito,1
+P00143,Instituição de Longa Permanência,3
 P00144,Pessoa Idosa,1
 P00144,Saúde da Pessoa Idosa,2
-P00145,Pessoa Idosa,1
-P00146,Fraude/Crédito,1
-P00146,Saúde da Pessoa Idosa,2
-P00146,Benefício Assistencial,3
-P00147,Pessoa Idosa,1
-P00148,Transporte,1
-P00149,Fraude/Crédito,1
-P00149,Transporte,2
-P00149,Saúde da Pessoa Idosa,3
+P00145,Instituição de Longa Permanência,1
+P00146,Benefício Assistencial,1
+P00147,Saúde da Pessoa Idosa,1
+P00147,Pessoa Idosa,2
+P00148,Acessibilidade,1
+P00149,Transporte,1
 P00150,Violência contra Pessoa Idosa,1
 P00150,Transporte,2
-P00150,Instituição de Longa Permanência,3
-P00151,Acessibilidade,1
+P00151,Fraude/Crédito,1
 P00152,Pessoa Idosa,1
-P00153,Violência contra Pessoa Idosa,1
+P00153,Instituição de Longa Permanência,1
+P00153,Benefício Assistencial,2
 P00154,Benefício Assistencial,1
-P00155,Transporte,1
-P00155,Violência contra Pessoa Idosa,2
-P00155,Benefício Assistencial,3
-P00156,Saúde da Pessoa Idosa,1
-P00156,Acessibilidade,2
-P00157,Instituição de Longa Permanência,1
-P00158,Saúde da Pessoa Idosa,1
+P00155,Saúde da Pessoa Idosa,1
+P00156,Acessibilidade,1
+P00156,Fraude/Crédito,2
+P00156,Benefício Assistencial,3
+P00157,Transporte,1
+P00158,Violência contra Pessoa Idosa,1
 P00159,Fraude/Crédito,1
-P00160,Instituição de Longa Permanência,1
-P00161,Instituição de Longa Permanência,1
-P00162,Benefício Assistencial,1
-P00163,Instituição de Longa Permanência,1
-P00164,Violência contra Pessoa Idosa,1
-P00165,Instituição de Longa Permanência,1
-P00166,Benefício Assistencial,1
-P00166,Transporte,2
-P00167,Saúde da Pessoa Idosa,1
-P00168,Pessoa Idosa,1
-P00169,Instituição de Longa Permanência,1
-P00169,Saúde da Pessoa Idosa,2
-P00169,Fraude/Crédito,3
-P00170,Benefício Assistencial,1
-P00171,Instituição de Longa Permanência,1
-P00171,Benefício Assistencial,2
-P00172,Instituição de Longa Permanência,1
-P00172,Acessibilidade,2
-P00172,Violência contra Pessoa Idosa,3
-P00173,Instituição de Longa Permanência,1
-P00174,Saúde da Pessoa Idosa,1
-P00175,Pessoa Idosa,1
-P00176,Saúde da Pessoa Idosa,1
-P00177,Instituição de Longa Permanência,1
-P00177,Fraude/Crédito,2
-P00178,Transporte,1
-P00179,Instituição de Longa Permanência,1
-P00180,Saúde da Pessoa Idosa,1
-P00181,Transporte,1
-P00181,Instituição de Longa Permanência,2
-P00182,Instituição de Longa Permanência,1
-P00183,Instituição de Longa Permanência,1
-P00183,Pessoa Idosa,2
-P00184,Instituição de Longa Permanência,1
-P00184,Saúde da Pessoa Idosa,2
-P00185,Transporte,1
-P00185,Pessoa Idosa,2
-P00186,Transporte,1
-P00187,Fraude/Crédito,1
-P00188,Saúde da Pessoa Idosa,1
-P00188,Transporte,2
-P00188,Instituição de Longa Permanência,3
-P00189,Fraude/Crédito,1
-P00190,Violência contra Pessoa Idosa,1
-P00191,Acessibilidade,1
-P00192,Instituição de Longa Permanência,1
-P00192,Transporte,2
-P00193,Pessoa Idosa,1
-P00193,Violência contra Pessoa Idosa,2
-P00194,Violência contra Pessoa Idosa,1
-P00194,Transporte,2
-P00195,Fraude/Crédito,1
-P00196,Violência contra Pessoa Idosa,1
-P00196,Instituição de Longa Permanência,2
-P00197,Transporte,1
-P00198,Fraude/Crédito,1
-P00199,Fraude/Crédito,1
-P00200,Acessibilidade,1
-P00201,Pessoa Idosa,1
-P00202,Transporte,1
-P00203,Instituição de Longa Permanência,1
-P00204,Instituição de Longa Permanência,1
-P00205,Violência contra Pessoa Idosa,1
-P00205,Fraude/Crédito,2
-P00206,Acessibilidade,1
-P00207,Benefício Assistencial,1
-P00207,Saúde da Pessoa Idosa,2
-P00208,Violência contra Pessoa Idosa,1
-P00209,Instituição de Longa Permanência,1
-P00210,Acessibilidade,1
-P00210,Benefício Assistencial,2
-P00211,Pessoa Idosa,1
-P00211,Fraude/Crédito,2
-P00212,Pessoa Idosa,1
-P00212,Instituição de Longa Permanência,2
-P00213,Saúde da Pessoa Idosa,1
-P00214,Benefício Assistencial,1
-P00215,Benefício Assistencial,1
-P00216,Fraude/Crédito,1
-P00216,Benefício Assistencial,2
-P00217,Violência contra Pessoa Idosa,1
-P00218,Violência contra Pessoa Idosa,1
-P00219,Saúde da Pessoa Idosa,1
-P00220,Acessibilidade,1
-P00220,Transporte,2
-P00220,Benefício Assistencial,3
-P00221,Fraude/Crédito,1
-P00222,Pessoa Idosa,1
-P00223,Violência contra Pessoa Idosa,1
-P00223,Pessoa Idosa,2
-P00224,Benefício Assistencial,1
-P00225,Instituição de Longa Permanência,1
-P00226,Acessibilidade,1
-P00227,Transporte,1
-P00227,Instituição de Longa Permanência,2
-P00228,Transporte,1
-P00229,Instituição de Longa Permanência,1
-P00230,Saúde da Pessoa Idosa,1
-P00230,Acessibilidade,2
-P00230,Fraude/Crédito,3
-P00231,Instituição de Longa Permanência,1
-P00231,Acessibilidade,2
-P00231,Violência contra Pessoa Idosa,3
-P00232,Acessibilidade,1
-P00233,Violência contra Pessoa Idosa,1
-P00234,Fraude/Crédito,1
-P00234,Acessibilidade,2
-P00235,Saúde da Pessoa Idosa,1
-P00235,Transporte,2
-P00236,Acessibilidade,1
-P00237,Fraude/Crédito,1
-P00238,Acessibilidade,1
-P00238,Saúde da Pessoa Idosa,2
-P00238,Instituição de Longa Permanência,3
-P00239,Saúde da Pessoa Idosa,1
-P00240,Violência contra Pessoa Idosa,1
-P00241,Violência contra Pessoa Idosa,1
-P00242,Instituição de Longa Permanência,1
-P00243,Saúde da Pessoa Idosa,1
-P00243,Pessoa Idosa,2
-P00244,Instituição de Longa Permanência,1
-P00244,Pessoa Idosa,2
-P00245,Fraude/Crédito,1
-P00246,Saúde da Pessoa Idosa,1
-P00247,Saúde da Pessoa Idosa,1
-P00248,Pessoa Idosa,1
-P00249,Violência contra Pessoa Idosa,1
-P00250,Transporte,1
-P00251,Pessoa Idosa,1
-P00252,Fraude/Crédito,1
-P00253,Saúde da Pessoa Idosa,1
-P00254,Pessoa Idosa,1
-P00255,Acessibilidade,1
-P00256,Saúde da Pessoa Idosa,1
-P00257,Transporte,1
-P00257,Fraude/Crédito,2
-P00257,Acessibilidade,3
-P00258,Saúde da Pessoa Idosa,1
-P00258,Fraude/Crédito,2
-P00259,Acessibilidade,1
-P00259,Instituição de Longa Permanência,2
-P00260,Violência contra Pessoa Idosa,1
-P00261,Benefício Assistencial,1
-P00262,Instituição de Longa Permanência,1
-P00263,Acessibilidade,1
-P00264,Pessoa Idosa,1
-P00265,Instituição de Longa Permanência,1
-P00265,Transporte,2
-P00266,Acessibilidade,1
-P00267,Benefício Assistencial,1
-P00268,Violência contra Pessoa Idosa,1
-P00269,Acessibilidade,1
-P00269,Fraude/Crédito,2
-P00269,Saúde da Pessoa Idosa,3
-P00270,Pessoa Idosa,1
-P00271,Saúde da Pessoa Idosa,1
-P00272,Violência contra Pessoa Idosa,1
-P00273,Benefício Assistencial,1
-P00274,Saúde da Pessoa Idosa,1
-P00275,Violência contra Pessoa Idosa,1
-P00275,Benefício Assistencial,2
-P00276,Pessoa Idosa,1
-P00277,Pessoa Idosa,1
-P00278,Transporte,1
-P00278,Saúde da Pessoa Idosa,2
-P00279,Saúde da Pessoa Idosa,1
-P00279,Benefício Assistencial,2
-P00280,Benefício Assistencial,1
-P00280,Acessibilidade,2
-P00281,Transporte,1
-P00281,Pessoa Idosa,2
-P00282,Saúde da Pessoa Idosa,1
-P00283,Transporte,1
-P00284,Pessoa Idosa,1
-P00285,Transporte,1
-P00286,Transporte,1
-P00287,Transporte,1
-P00288,Saúde da Pessoa Idosa,1
-P00288,Acessibilidade,2
-P00289,Transporte,1
-P00290,Violência contra Pessoa Idosa,1
-P00291,Transporte,1
-P00292,Saúde da Pessoa Idosa,1
-P00293,Transporte,1
-P00294,Instituição de Longa Permanência,1
-P00295,Instituição de Longa Permanência,1
-P00296,Violência contra Pessoa Idosa,1
-P00297,Instituição de Longa Permanência,1
-P00297,Saúde da Pessoa Idosa,2
-P00297,Violência contra Pessoa Idosa,3
-P00298,Acessibilidade,1
-P00299,Saúde da Pessoa Idosa,1
-P00300,Instituição de Longa Permanência,1
-P00301,Benefício Assistencial,1
-P00302,Violência contra Pessoa Idosa,1
-P00303,Saúde da Pessoa Idosa,1
-P00304,Saúde da Pessoa Idosa,1
-P00305,Violência contra Pessoa Idosa,1
-P00306,Acessibilidade,1
-P00306,Violência contra Pessoa Idosa,2
-P00306,Fraude/Crédito,3
-P00307,Acessibilidade,1
-P00308,Violência contra Pessoa Idosa,1
-P00309,Violência contra Pessoa Idosa,1
-P00310,Saúde da Pessoa Idosa,1
-P00310,Transporte,2
-P00311,Violência contra Pessoa Idosa,1
-P00312,Saúde da Pessoa Idosa,1
-P00313,Fraude/Crédito,1
-P00314,Saúde da Pessoa Idosa,1
-P00315,Saúde da Pessoa Idosa,1
-P00316,Violência contra Pessoa Idosa,1
-P00317,Fraude/Crédito,1
-P00318,Violência contra Pessoa Idosa,1
-P00319,Violência contra Pessoa Idosa,1
-P00320,Acessibilidade,1
-P00321,Pessoa Idosa,1
-P00322,Saúde da Pessoa Idosa,1
-P00322,Acessibilidade,2
-P00323,Pessoa Idosa,1
-P00324,Transporte,1
-P00325,Violência contra Pessoa Idosa,1
-P00326,Acessibilidade,1
-P00326,Transporte,2
-P00327,Violência contra Pessoa Idosa,1
-P00328,Transporte,1
-P00329,Fraude/Crédito,1
-P00330,Transporte,1
-P00331,Pessoa Idosa,1
-P00331,Transporte,2
-P00332,Violência contra Pessoa Idosa,1
-P00333,Pessoa Idosa,1
-P00333,Saúde da Pessoa Idosa,2
-P00334,Acessibilidade,1
-P00334,Fraude/Crédito,2
-P00335,Fraude/Crédito,1
-P00336,Transporte,1
-P00336,Pessoa Idosa,2
-P00337,Violência contra Pessoa Idosa,1
-P00338,Acessibilidade,1
-P00338,Saúde da Pessoa Idosa,2
-P00339,Instituição de Longa Permanência,1
-P00339,Fraude/Crédito,2
-P00340,Acessibilidade,1
-P00341,Saúde da Pessoa Idosa,1
-P00342,Violência contra Pessoa Idosa,1
-P00343,Benefício Assistencial,1
-P00343,Acessibilidade,2
-P00343,Saúde da Pessoa Idosa,3
-P00344,Saúde da Pessoa Idosa,1
-P00345,Saúde da Pessoa Idosa,1
-P00346,Benefício Assistencial,1
-P00346,Acessibilidade,2
-P00347,Benefício Assistencial,1
-P00348,Benefício Assistencial,1
-P00349,Transporte,1
-P00350,Transporte,1
-P00351,Acessibilidade,1
-P00351,Violência contra Pessoa Idosa,2
-P00352,Saúde da Pessoa Idosa,1
-P00353,Acessibilidade,1
-P00354,Benefício Assistencial,1
-P00355,Pessoa Idosa,1
-P00356,Instituição de Longa Permanência,1
-P00357,Pessoa Idosa,1
-P00357,Benefício Assistencial,2
-P00357,Saúde da Pessoa Idosa,3
-P00358,Benefício Assistencial,1
-P00359,Instituição de Longa Permanência,1
-P00360,Fraude/Crédito,1
+P00159,Acessibilidade,2
+P00160,Pessoa Idosa,1
