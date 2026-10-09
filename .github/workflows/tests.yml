@@ -30,3 +30,47 @@ jobs:
 
       - name: Testes
         run: PYTHONPATH=. pytest -q
+
+      - name: Smoke SIDRA — Macapá
+        run: |
+          PYTHONPATH=. python - <<'PY'
+          import time
+          import requests
+
+          from dashboard_utils import (
+              SIDRA_9514,
+              SIDRA_9606,
+              parse_sidra_9514,
+              parse_sidra_9606,
+          )
+
+          checks = [
+              ("9514", SIDRA_9514, parse_sidra_9514),
+              ("9606", SIDRA_9606, parse_sidra_9606),
+          ]
+
+          for name, template, parser in checks:
+              last = None
+              for attempt in range(1, 4):
+                  try:
+                      url = template.format(codes="1600303")
+                      response = requests.get(
+                          url,
+                          timeout=90,
+                          headers={"User-Agent": "acao413-mpap-ci/0.3"},
+                      )
+                      response.raise_for_status()
+                      frame = parser(response.json())
+                      assert not frame.empty
+                      assert "1600303" in set(frame["codigo_ibge"])
+                      print(f"SIDRA {name}: OK")
+                      last = None
+                      break
+                  except Exception as exc:
+                      last = exc
+                      print(f"SIDRA {name}: tentativa {attempt} falhou: {exc}")
+                      time.sleep(5)
+
+              if last is not None:
+                  raise last
+          PY
