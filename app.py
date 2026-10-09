@@ -296,14 +296,8 @@ if page == "Visão geral":
     c1.metric("Processos (MVP)", nproc)
     c2.metric(f"Pessoas {faixa} no MVP", fpp["pessoa_id"].nunique())
     c3.metric(f"População {faixa} (IBGE)", fmt_int(denominador))
-    c4.metric(
-        "População 60+ (IBGE)",
-        fmt_int(gi["pop_60mais"].sum()) if not gi.empty else "—",
-    )
-    c5.metric(
-        "População 80+ (IBGE)",
-        fmt_int(gi["pop_80mais"].sum()) if not gi.empty else "—",
-    )
+    c4.metric("Processos ativos", int((f["situacao"] == "Ativo").sum()))
+    c5.metric("Processos encerrados", int((f["situacao"] == "Encerrado").sum()))
     c6.metric(
         "Razão demonstrativa",
         "—" if pd.isna(razao) else f"{razao:.1f}/10 mil",
