@@ -1,45 +1,51 @@
+# Ação 413 — Painel da Pessoa Idosa — MVP v0.3
 
-# Ação 413 — Painel de Dados para Atuação Resolutiva
+Versão do protótipo que incorpora contexto demográfico oficial do IBGE para os 16 municípios do Amapá.
 
-MVP demonstrativo em Streamlit, com dados 100% sintéticos.
+## O que mudou
 
-## O que contém
+- cadastro dos 16 municípios com código IBGE de 7 dígitos;
+- integração automática com o SIDRA/IBGE;
+- população 60+ e 80+ por município;
+- composição 60+ por sexo;
+- composição 60+ por cor ou raça;
+- denominadores para taxas por 10 mil pessoas idosas;
+- nova página **Contexto IBGE**;
+- tabela territorial unindo numerador processual e denominador demográfico;
+- documentação metodológica explícita.
 
-- Visão geral
-- Território
-- Temas
-- Fluxo e tempo
-- Universo 60+ / 80+
-- Qualidade dos dados
-- Camada conceitual de resolutividade
-- Metodologia
+## Fontes oficiais
 
-## Modelo de dados
+- Censo Demográfico 2022 — SIDRA tabela 9514: população residente por sexo e idade.
+- Censo Demográfico 2022 — SIDRA tabela 9606: população residente por cor ou raça, sexo e idade.
+- Códigos territoriais: IBGE — Códigos dos Municípios.
 
-O protótipo separa:
-- processos;
-- vínculos pessoa–processo;
-- vínculos assunto–processo;
-- dimensão territorial.
+## Segurança e interpretação
 
-Isso evita dupla contagem quando um processo tem várias pessoas ou vários assuntos.
+O MVP continua usando **dados processuais sintéticos**. O componente demográfico é oficial.
+As taxas resultantes nesta fase são, portanto, **taxas demonstrativas**, úteis para validar a arquitetura,
+e não indicadores reais de demanda do MP-AP.
+
+Não inserir dados reais do Urano neste repositório público ou no Streamlit público sem validação institucional
+de privacidade, segurança da informação, governança e controle de acesso.
 
 ## Executar localmente
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+```powershell
+py -m pip install -r requirements.txt
+py -m streamlit run app.py
 ```
 
-## Publicar gratuitamente no Streamlit Community Cloud
+## Atualização dos dados do IBGE
 
-1. Crie um repositório no GitHub.
-2. Envie estes arquivos preservando a estrutura de pastas.
-3. Acesse o Streamlit Community Cloud e escolha **Create app**.
-4. Selecione o repositório, a branch e `app.py`.
-5. Escolha um subdomínio disponível, por exemplo `acao413-mpap`.
-6. Faça o deploy.
+O app consulta o SIDRA automaticamente. Para guardar uma cópia bruta das consultas oficiais:
 
-## Segurança
+```powershell
+py refresh_ibge.py
+```
 
-Este pacote contém somente dados sintéticos. Não substitua os CSVs por dados reais do Urano em hospedagem pública sem validação institucional de privacidade, segurança, governança e controle de acesso.
+## Publicação
+
+Aplicação demonstrativa: https://idosos.streamlit.app/
+
+A branch `mvp-v03-ibge` deve ser revisada por Pull Request antes de ser incorporada à `main`.
