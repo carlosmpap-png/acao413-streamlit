@@ -1,0 +1,32 @@
+name: testes
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - mvp-v03-ibge
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Compilação
+        run: python -m py_compile app.py dashboard_utils.py refresh_ibge.py
+
+      - name: Testes
+        run: pytest -q
